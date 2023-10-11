@@ -1,0 +1,119 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    font-family: "Open Sans";
+}
+
+.intro{
+    margin-top: 10vw;
+    margin-bottom: 3vw;
+}
+
+.text{
+    justify-content: center;
+}
+
+.up h1{
+    margin-bottom: 2vw;
+    color: #266E00;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 87.254px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.down{
+    display: flex;
+    justify-content: center;
+}
+
+.down p{
+    width: 82.3%;
+    color: #000;
+    text-align: justify;
+    font-family: Ubuntu;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 98.9%; 
+    letter-spacing: 0.125px;
+}
+
+.photo{
+    width: 100vw;
+}
+
+img{
+    max-height: 50vh;
+    width: 100%;
+}
+
+#sumario{
+    background-color: #8FCA39;
+    margin-top: -1vw;
+}
+
+.title{
+    width: 87.5vw;
+    margin: auto;
+    padding-top: 2vw;
+}
+
+.all{
+    width: 87.5vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 2vw;
+}
+
+.title h1{
+    color: #266E00;
+    font-family: Open Sans;
+    font-size: 62.776px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sumario_text1 h1, .sumario_text2 h1{
+    color: #FFF;
+    text-align: justify;
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 98.9%; /* 29.67px */
+    letter-spacing: 0.15px;
+}
+
+.sumario_text1 p, .sumario_text2 p{
+    color: #FFF;
+font-family: Ubuntu;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 98.9%;
+letter-spacing: 0.11px;
+}
+
+.photo_2{
+    width: 23.2vw;
+    margin: auto;
+}
+
+.left, .right{
+    width: 42.5vw;
+}
